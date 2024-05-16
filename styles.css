@@ -10,7 +10,7 @@ body,h2{
 }
 .landing
 {
-    background-image: url('pexels-jessica-lewis-🦋-thepaintedsquare-858094.jpg');
+    background-image: url("pexels-jessica-lewis-🦋-thepaintedsquare-858094.jpg");
     background-size: cover;
     background-position: center;
     height:100vh;
