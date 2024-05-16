@@ -1,0 +1,109 @@
+:root{
+    --yellow:#FFC54D ;
+    --red:crimson;
+    --green:#53BF9D;
+    --white:whitesmoke;
+}
+body,h2{
+    margin:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.landing
+{
+    background-image: url(media/pexels-jessica-lewis-🦋-thepaintedsquare-858094.jpg);
+    background-size: cover;
+    background-position: center;
+    height:100vh;
+    color: var(--white);
+} 
+header a{  
+    text-decoration: none;
+    color:var(--yellow);   
+}
+header{
+    display: flex;
+    padding:1.5em;
+}
+#logo{
+    flex: 3;
+    font-size: 1em;
+}
+nav{
+    flex:1;
+    display:flex;
+}
+nav a{
+    flex:1;
+    transition-duration: 2s;
+}
+nav a:hover{
+    color:var(--green);
+}
+.maintext{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:50vh;
+    padding:3em;
+}
+.tagline1{
+    color:var(--red);
+    font-size:4.5em; 
+     font-weight: bolder;
+    margin-top: 1em;
+}
+.tagline2{
+    color: var(--yellow);
+    margin-top: 1em;
+}
+.callus{
+    margin-top: 1em;
+}
+.maintext button{
+    width:20vw;
+    border-radius: 10px;
+    padding: 0.7em;
+    color: var(--white);
+    margin-top: 1em;
+    background-color: var(--green);
+    border: black solid 0.2em;
+}
+.menu{
+    display: grid;
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+}
+#menuheading,#locheading{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--red);
+    font-size: 2.5em;
+    display: flex;
+    justify-content: center;
+}
+.menu th{
+    color:var(--green);
+    font-size: 2.00em;
+}
+table{
+   width:100%;
+   padding: 1em;
+}
+.menu td{
+    padding: 0.5em;
+}
+.locations{
+    background: linear-gradient(to right,rgb(100,100,100),rgb(53,52,52));
+    color: var(--white);
+    display: flex;
+    flex-wrap: wrap;
+}
+.locations div{
+    flex:1;
+    padding: 1em;
+    min-width: 160px;
+}
+.locations h2{
+    color: var(--green);
+    margin-bottom: 1em;
+}
